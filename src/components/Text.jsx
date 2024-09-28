@@ -19,4 +19,4 @@ const Text = ({ children, className = "", as, size = "textxl", ...restProps }) =
     );
 };
 
-export { Text };
+export default Text ;
