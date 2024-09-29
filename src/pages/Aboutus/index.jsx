@@ -29,7 +29,7 @@ const AboutUsPage = () => {
                   <div className="w-[48%] rounded-[270px] bg-[#d0ccc7333] p-[52px] md:w-full md:p-5">
                     <div className="rounded-[218px] ng-[#d0ccc7333] p-11 md:p-5">
                       <Img
-                        src="assets/chefImage.jpg"
+                        src="images\img_unsplash_ebmyh7oo5wy.png"
                         alt="Featured Image"
                         className="h-[346px] w-[346px] rounded-[172px] object-cover"
                       />
@@ -71,7 +71,7 @@ const AboutUsPage = () => {
                     </Text>
                     <div className="w-[50%] rounded-[280px] bg-[#d0ccc719] p-14 md:w-full md:p-5">
                         <div className="rounded-[222px] bg-[#d0ccc719] p-11 md:p-5">
-                            <Img src="../../assets/chefImage.jpg" alt="Secondaary Img" className="h-[354px] w-[354px] rounded-[176px] object-cover"/>
+                            <Img src="" alt="Secondaary Img" className="h-[354px] w-[354px] rounded-[176px] object-cover"/>
                         </div>
                     </div>
                 </div>
