@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li:focus-visible{
+    outline: none;
+}
+li:hover{
+    cursor: pointer;
+}
+
+@layer components{
+    .container-xs{
+        @apply w-full mx-auto max-w-[1114px];
+    }
+}
