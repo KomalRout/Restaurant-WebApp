@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 
-const Button = ({children,classname="",leftIcon,rightIcon,shape,variant="fill",size = "4xl",color = "red_400",...restProps}) => {
+const Button = ({children,className="",leftIcon,rightIcon,shape,variant="fill",size = "h-[60px] px-3.5",color = "bg-[#f54748] text-[#ffffff]",...restProps}) => {
   const shapes = {
     square: "rounded-[0px]",
     round: "rounded-[16px]",
@@ -10,7 +10,7 @@ const Button = ({children,classname="",leftIcon,rightIcon,shape,variant="fill",s
 
     return (
     <button
-        className={`${classname} flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap ${shape && shapes[shape]} ${size && size} ${variant && variant}`}
+        className={`${className} flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap ${shape && shapes[shape]} ${size} ${color}`}
         {...restProps}
     >
         {!!leftIcon && leftIcon}

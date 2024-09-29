@@ -8,7 +8,7 @@ const ChefSection = () => {
     <>
         <div className='flex justify-center self-stretch'>
             <div className='container-xs flex items-center justify-between gap-5 md:flex-col md:px-5'>
-                <Img src="" alt="Unsplash Image" className="h-[628px] w-[40%] object-contain md:w-full"/>
+                <Img src="../../assets/chefImage.jpg" alt="Unsplash Image" className="h-[628px] w-[40%] object-contain md:w-full"/>
                 <div className='flex w-[48%] flex-col gap-[34px] md:w-full'>
                     <div className='flex flex-col items-start gap-1.5'>
                         <Heading
