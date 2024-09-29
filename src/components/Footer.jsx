@@ -11,19 +11,19 @@ const Footer = ({...props}) => {
             <div className='flex w-full flex-col items-center gap-[60px] sm:gap-[30px]'>
                 <div className='flex items-center justify-between gap-5 self-stretch md:flex-col'>
                     <div className='flex w-[32%] flex-col gap-[42px] md:w-full'>
-                        <Img src="" alt="Footer Logo" className="h-[50px] w-[124px] object-contain"/>
+                        <Img src="images\img_footer_logo.png" alt="Footer Logo" className="h-[50px] w-[124px] object-contain"/>
                         <Text as="p" className="text-[20px] font-normal leading-[200%] text-[#e3e1df]">
                             Footer Desc.
                         </Text>
                         <div className="flex w-[68%] justify-between gap-5 md:w-full">
                             <Button color='gray_300' shape="circle" classname='w-[60px] rounded-[30px] px-3.5'>
-                                <Img src="" alt="insta"/>
+                                <Img src="images\img_twitter.png" alt="twitter"/>
                             </Button>
                             <Button color='gray_300' shape="circle" classname='w-[60px] rounded-[30px] px-3.5'>
-                                <Img src="" alt="twitter"/>
+                                <Img src="images\img_instagram.png" alt="instagram"/>
                             </Button>
                             <Button color='gray_300' shape="circle" classname='w-[60px] rounded-[30px] px-3.5'>
-                                <Img src="" alt="facebook"/>
+                                <Img src="images\img_facebook.png" alt="facebook"/>
                             </Button>
                         </div>
                     </div>

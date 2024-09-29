@@ -6,7 +6,7 @@ import Text from './Text';
 const Header = ({...props}) => {
   return (
     <header {...props} className={`flex sm:flex-row justify-between items-center gap-5`}>
-        <Img src="" alt="Header Logo" className="h-[50px] w-[124px] object-contain"/>
+        <Img src="images\img_header_logo.svg" alt="Header Logo" className="h-[50px] w-[124px] object-contain"/>
         <ul className='!mt-2 flex items-start gap-[30px] self-start sm:flex-col sm:self-auto'>
             <li>
                 <a href='#' className='cursor-pointer'>
@@ -58,7 +58,7 @@ const Header = ({...props}) => {
         <div className='flex gap-6'>
             <a href='#'>
                 <Button color='' size="h-[50px] px-3" classname='w-[50px] rounded-[24px] px-3'>
-                    <Img src=""/>
+                    <Img src="images\img_cart.svg"/>
                 </Button>
             </a>
             <Button size='h-[50px] px-[34px] text[14px]' shape="round" classname='min-w-[112px] rounded-[16px] px-[34px] font-semibold sm:px-5'> 
