@@ -7,7 +7,7 @@ const Header = ({...props}) => {
   return (
     <header {...props} className={`flex sm:flex-row justify-between items-center gap-5`}>
         <Img src="" alt="Header Logo" className="h-[50px] w-[124px] object-contain"/>
-        <ul className='!mt-2 flex items-start gap-[30px] self-start sm:flex-row sm:self-auto'>
+        <ul className='!mt-2 flex items-start gap-[30px] self-start sm:flex-col sm:self-auto'>
             <li>
                 <a href='#' className='cursor-pointer'>
                     <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
