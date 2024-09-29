@@ -8,7 +8,7 @@ const OrderonlineColumn = () => {
                 <Heading
                     size="heading6xl"
                     as="h1"
-                    className="font-['open_Sans'] text-[80px] font-bold text-[#311f09] md:text-[48px]"
+                    className="font-sans text-[80px] font-bold text-[#311f09] md:text-[48px]"
                 >
                     Menu
                 </Heading>

@@ -23,7 +23,7 @@ const SelectBox = forwardRef(
     (
         {
             children,
-            classname = "",
+            className = "",
             options = [],
             isSearchable = false,
             isMulti = false,
@@ -46,7 +46,7 @@ const SelectBox = forwardRef(
                     isMulti={isMulti}
                     components={{
                         IndicatorSeparator: () => null,
-                        ...PropTypes(indicator && { DropdownIndicator: () => indicator }),
+                        ...(indicator && { DropdownIndicator: () => indicator }),
                     }}
                     style={{
                         IndicatorSeparator: (provider) => ({
@@ -129,4 +129,4 @@ SelectBox.propTypes = {
     color: PropTypes.oneOf(["white_A700"]),
 };
 
-export { SelectBox };
+export default SelectBox ;

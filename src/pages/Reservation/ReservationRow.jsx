@@ -1,5 +1,8 @@
-import { Button, SelectBox, Heading, Img } from "../../components";
 import React from "react";
+import Img from "../../components/Img";
+import Heading from "../../components/Heading";
+import Button from "../../components/Button";
+import SelectBox from "../../components/SelectBox";
 
 const dropDownOptions = [
     {label: "Option1", value: "option1"},
@@ -17,18 +20,18 @@ const ReservationRow = () => {
                         alt="Restaurant Image"
                         className="h-[656px] w-[86%] rounded-[20px] object-contain"
                     />
-                </div>
+                </div> 
                 <div className="flex w-[42%] flex-col items-start gap-12 md:w-full">
                     <Heading 
                         size="heading5xl"
                         as="h1"
-                        className="font-['open_Sans'] text-[70px] font-bold text-[#311f09] md:text-[48px]"
+                        className="font-sans text-[70px] font-bold text-[#311f09] md:text-[48px]"
                     >
                      Book a table
                     </Heading>
                     <div className="flex flex-col gap-10 self-stretch">
                         <div className="flex flex-col gap-10">
-                            <SelectBox
+                            <SelectBox 
                                shape="round"
                                name="Date Dropdown"
                                placeholder={`Date`}

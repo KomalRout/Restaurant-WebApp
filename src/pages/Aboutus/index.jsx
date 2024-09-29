@@ -40,7 +40,7 @@ const AboutUsPage = () => {
                       <Heading
                         size="text-[52px] font-bold md:text-[44px] sm:text-[38px]"
                         as="h1"
-                        className="font-['Open_Sans'] text-[52px] font-bold leading-[110%] text-[#f54748] md:text-[44px] sm:text-[38px]"
+                        className="font-sans text-[52px] font-bold leading-[110%] text-[#f54748] md:text-[44px] sm:text-[38px]"
                       >
                         <span className="text-[#301e08]">
                           <>

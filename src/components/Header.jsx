@@ -10,7 +10,7 @@ const Header = ({...props}) => {
         <ul className='!mt-2 flex items-start gap-[30px] self-start sm:flex-col sm:self-auto'>
             <li>
                 <a href='#' className='cursor-pointer'>
-                    <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                    <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                         Home
                     </Text>
                 </a>
@@ -18,7 +18,7 @@ const Header = ({...props}) => {
             <li>
                 <a href='#' className='cursor-pointer'>
                     <div className='flex flex-col items-center gap-0.5'>
-                        <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                        <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                             Menu
                         </Text>
                     </div>
@@ -27,7 +27,7 @@ const Header = ({...props}) => {
             <li>
                 <a href='#' className='cursor-pointer'>
                     <div className='flex'>
-                        <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                        <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                             About us
                         </Text>
                     </div>
@@ -35,21 +35,21 @@ const Header = ({...props}) => {
             </li>
             <li>
                 <a href='#' className='cursor-pointer'>
-                    <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                    <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                         Order online
                     </Text>
                 </a>
             </li>
             <li>
                 <a href='#' className='cursor-pointer'>
-                    <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                    <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                         Reservation
                     </Text>
                 </a>
             </li>
             <li>
                 <a href='#' className='cursor-pointer'>
-                    <Text size="textmd" as="p" className="font-['Open_Sans'] text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
+                    <Text size="textmd" as="p" className="font-sans text-[16px] font-normal text=[#311f09cc] hover:text-[#f54748]">
                         Contact us
                     </Text>
                 </a>
@@ -57,11 +57,11 @@ const Header = ({...props}) => {
         </ul>
         <div className='flex gap-6'>
             <a href='#'>
-                <Button color='' size="lg" classname='w-[50px] rounded-[24px] px-3'>
+                <Button color='' size="h-[50px] px-3" classname='w-[50px] rounded-[24px] px-3'>
                     <Img src=""/>
                 </Button>
             </a>
-            <Button size='md' shape="round" classname='min-w-[112px] rounded-[16px] px-[34px] font-semibold sm:px-5'> 
+            <Button size='h-[50px] px-[34px] text[14px]' shape="round" classname='min-w-[112px] rounded-[16px] px-[34px] font-semibold sm:px-5'> 
                 Login
             </Button>
         </div>
