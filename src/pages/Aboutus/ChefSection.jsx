@@ -17,7 +17,6 @@ const ChefSection = () => {
                             className="w-full font-['Open-sans'] text-[52px] font-bold leading-[140%] text-[#311f0p] md:text-[44px] sm:text-[38px]"
                         >
                             <span className='text-[#f54748]'>Owner</span>
-                            <span className='text-[#ff8900]'>$nbsp;</span>
                             <span className='text-[#311f09]'>& Executive Chef</span>
                         </Heading>
                         <Text
@@ -30,23 +29,23 @@ const ChefSection = () => {
                     </div>
                     <div className='flex w-[90%] flex-col items-end md:w-full'>
                         <div className='relative h-[308px] self-stretch'>
-                            <Text
-                                size="text3xl"
-                                as="p"
-                                className="absolute bottom-[-0.11px] left-0 right-0 m-auto w-full text-[30px] font-light italic leading-[200%] text-[#5c4529] md:text-[28px] sm:text-[26px]"
-                            >
-                                Chef desc
-                            </Text>
-                            <Heading
+                        <Heading
                             size="text-[80px] font-bold md:text-[48px]"
-                            as="h2"
+                            as="h3"
                             className="absolute left-0 top-0 m-auto font-['Tinos] text[80px] font-bold text-[#ff8c0033] md:text-[48px]"
                         >
                            "
                         </Heading>
+                        <Text
+                                size="text3xl"
+                                as="p"
+                                className="absolute bottom-[-0.11px] left-0 right-0 m-auto w-full text-[30px] font-light italic leading-[200%] text-[#5c4529] md:text-[28px] sm:text-[26px]"
+                            >
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </Text>
                         <Heading
                             size="text-[40px] font-normal text-[#5c4529] md:text-[38px] sm:text-[36px]"
-                            as="h2"
+                            as="h4"
                             className="rotate-[-180deg] left-0 top-0 m-auto font-['Tinos] text[80px] font-bold text-[#ff8c0033] md:text-[48px]"
                         >
                             "
