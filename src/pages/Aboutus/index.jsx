@@ -71,7 +71,7 @@ const AboutUsPage = () => {
                     </Text>
                     <div className="w-[50%] rounded-[280px] bg-[#d0ccc719] p-14 md:w-full md:p-5">
                         <div className="rounded-[222px] bg-[#d0ccc719] p-11 md:p-5">
-                            <Img src="" alt="Secondaary Img" className="h-[354px] w-[354px] rounded-[176px] object-cover"/>
+                            <Img src="images/img_unsplash_5dszncvdhd0.png" alt="Secondaary Img" className="h-[354px] w-[354px] rounded-[176px] object-cover"/>
                         </div>
                     </div>
                 </div>

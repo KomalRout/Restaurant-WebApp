@@ -1,7 +1,7 @@
 import { Button, Img, Text, Heading, RatingBar } from "./..";
 import React from "react";
 
-export default UserProfile1 = ({
+export default UserProfile = ({
     userImage = "images/img_pngitem_41084.png",
     userTitle = "Spaghetti",
     userDescription = "Lorem",
