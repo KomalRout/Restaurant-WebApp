@@ -54,7 +54,11 @@ const PopularMenuSection = () => {
     <>
         <div className='flex flex-col items-center'>
             <div className='container-xs flex flex-col items-center gap-[70px] md:gap-[52px] md:px-5 sm:gap-[35px]'>
-                <Heading>
+                <Heading 
+                    size="heading4xl"
+                    as="h2"
+                    className="font-['Open_Sans'] text-[52px] font-bold text-[#311f09] md:text-[44px] sm:text-[38px]"
+                    >
                     Our Popular Menu
                 </Heading>
                 <Tabs className="flex flex-col items-center gap-[50px] self-stretch"

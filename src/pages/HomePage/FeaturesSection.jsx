@@ -38,8 +38,12 @@ const FeaturesSection = () => {
                     </div>
                     <div className='mt-[90px] flex w-[40%] flex-col items-start gap-[34px] md:w-full'>
                         <div className='flex flex-col gap-4 self-stretch'>
-                            <Heading>
-                                <span>
+                            <Heading 
+                                siize="heading4xl"
+                                as="h2"
+                                className="w-[80%] font-['Open_Sans'] text-[52px] font-bold leading-[110%] text-[#f54748] md:w-full md:text-[44px] sm:text-[38px]"
+                                >
+                                <span className="leading-[70px] text-[#301e08]">
                                     <>
                                         Our Most <br/>
                                         Popular&nbsp;

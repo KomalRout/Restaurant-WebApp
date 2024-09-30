@@ -57,7 +57,7 @@ const Header = ({...props}) => {
         </ul>
         <div className='flex gap-6'>
             <a href='#'>
-                <Button color='' size="h-[50px] px-3" classname='w-[50px] rounded-[24px] px-3'>
+                <Button color='white_A700' size="h-[50px] px-3" classname='w-[50px] rounded-[24px] px-3'>
                     <Img src="images\img_cart.svg"/>
                 </Button>
             </a>
