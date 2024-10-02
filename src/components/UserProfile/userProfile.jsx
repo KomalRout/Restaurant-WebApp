@@ -5,13 +5,13 @@ import Img from "../Img";
 import Text from "../Text";
 import Heading from "../Heading";
 
-export default UserProfile = ({
+export default function UserProfile({
     userImage = "images/img_pngitem_41084.png",
-    userTitle = "Spaghetti",
+    userName = "Spaghetti",
     userDescription = "Lorem",
     userPrice = "$12.05",
     orderButton = "Oreder now",
-    ...props }) => {
+    ...props }){
     return (
         <div
             {...props}

@@ -2,7 +2,7 @@ import Img  from "../Img";
 import Heading from "../Heading";
 import React from "react";
 
-export default UserProfile2 = ({
+export const UserProfile2 = ({
     userImage = "images/img_image_1.png",
     userName = "Betran Komar",
     userTitle = "Head chef",

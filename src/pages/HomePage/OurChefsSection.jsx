@@ -1,11 +1,14 @@
 import React, { Suspense } from 'react'
 import Button from '../../components/Button';
 import Heading from '../../components/Heading';
-
+import {UserProfile2} from '../../components/UserProfile2/userProfile2';
 const OurChefsSection = () => {
-    const chefProfilesList = {
+    const chefProfilesList = [
+        {userImage:"",userName:"Betran Komar", userTitle: "Head Chef"},
+        {userImage:"",userName:"Betran Komar", userTitle: "Head Chef"},
+        {userImage:"",userName:"Betran Komar", userTitle: "Head Chef"}
+    ];
 
-    };
   return (
     <>
         <div className='flex felx-col items-center'>
