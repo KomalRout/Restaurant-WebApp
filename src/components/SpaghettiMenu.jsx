@@ -1,5 +1,7 @@
-import { Heading, Img, Text } from "/..";
 import React, { useState } from "react";
+import Heading from "./Heading";
+import Img from "./Img";
+import Text from "./Text";
 
 const SpaghettiMenu = ({
     spaghettiTitle = "Spaghetti",
@@ -50,3 +52,5 @@ const SpaghettiMenu = ({
         </div>
     )
 }
+
+export  default SpaghettiMenu;

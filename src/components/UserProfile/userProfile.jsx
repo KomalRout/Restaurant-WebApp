@@ -1,5 +1,9 @@
-import { Button, Img, Text, Heading, RatingBar } from "./..";
+import { RatingBar } from "./..";
 import React from "react";
+import Button from "../Button";
+import Img from "../Img";
+import Text from "../Text";
+import Heading from "../Heading";
 
 export default UserProfile = ({
     userImage = "images/img_pngitem_41084.png",

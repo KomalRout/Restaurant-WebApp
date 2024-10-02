@@ -46,9 +46,9 @@ TextArea.propTypes = {
     className: PropTypes.string,
     name: PropTypes.string,
     placeholder: PropTypes.string,
-    shape: PropTypes.oneof(["round"]),
-    size: PropTypes.oneof(["sm", "xs"]),
-    variant: PropTypes.oneof(["tarOutlineGray400"]),
+    // shape: PropTypes.oneof(["round"]),
+    // size: PropTypes.oneof(["sm", "xs"]),
+    // variant: PropTypes.oneof(["tarOutlineGray400"]),
 };
 
-export { TextArea };
+export default TextArea;

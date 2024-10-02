@@ -1,7 +1,11 @@
-import { Img, Text, Heading, RatingBar } from "./..";
-import React, { useState } from "react";
 
-export default UserProfile1 = ({
+import React, { useState } from "react";
+import Img from "../Img";
+import Text from "../Text";
+import Heading from "../Heading";
+import { RatingBar } from "../RatingBar";
+
+const UserProfile1 = ({
     userImage = "images/img_kisspng_italian.png",
     userTitle = "Spaghetti",
     userDescription = "Lorem",
@@ -51,4 +55,6 @@ export default UserProfile1 = ({
             </div>
         </div>
     );
-}
+};
+
+export default UserProfile1;

@@ -1,5 +1,6 @@
-import { Button, Heading } from "../../components";
 import React from "react";
+import Button from "../../components/Button";
+import Heading from "../../components/Heading";
 
 const OrderonlineColumn = () => {
     return (
@@ -13,42 +14,42 @@ const OrderonlineColumn = () => {
                     Menu
                 </Heading>
                 <div className="flex justify-center gap-7 self-stretch md:flex-col">
-                    <button
+                    <Button
                       color="gray_400_19_01"
                       size="5xl"
                       shape="round"
                       className="flex-1 rounded-[16px] px-[26px] md:self-stretch sm:px-5"
                     >
                         All Categories
-                    </button>
-                    <button size="5xl" shape="round" className="min-w-[232px] rounded-[16px] px-[34px] font-semibold sm:px-5"
+                    </Button>
+                    <Button size="5xl" shape="round" className="min-w-[232px] rounded-[16px] px-[34px] font-semibold sm:px-5"
                     >
                         Pasta
-                    </button>
-                    <button
+                    </Button>
+                    <Button
                       color="gray_400_19_01"
                       size="5xl"
                       shape="round"
                       className="flex-1 rounded-[16px] px-[34px] md:self-stretch sm:px-5"
                     >
                         Pizza
-                    </button>
-                    <button
+                    </Button>
+                    <Button
                       color="gray_400_19_01"
                       size="5xl"
                       shape="round"
                       className="flex-1 rounded-[16px] px-[34px] md:self-stretch sm:px-5"
                     >
                         Dessert
-                    </button>
-                    <button
+                    </Button>
+                    <Button
                       color="gray_400_19_01"
                       size="5xl"
                       shape="round"
                       className="flex-1 rounded-[16px] px-[34px] md:self-stretch sm:px-5"
                     >
                         Drink
-                    </button>
+                    </Button>
                 </div>
             </div>
         </div>

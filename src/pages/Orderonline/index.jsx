@@ -1,11 +1,15 @@
 import { Helmet } from "react-helmet";
-import { Button, Heading, Img, Input } from "../../components";
+import Button from "../../components/Button";
+import Heading from "../../components/Heading";
+import Img from "../../components/Img";
+import Input from "../../components/Input";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SpaghettiMenu from "../../components/SpaghettiMenu";
-import UserProfile1 from "../../components/UserProfile1";
+import userProfile1 from "./../../components/UserProfile1/userProfile1";
 import OrderonlineColumn from "./OrderonlineColumn";
 import React, { Suspense } from "react";
+import UserProfile1 from './../../components/UserProfile1/userProfile1';
 
 const orderGrid = [
     {
