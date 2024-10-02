@@ -1,4 +1,5 @@
-import { Heading, Img } from "./..";
+import Img  from "../Img";
+import Heading from "../Heading";
 import React from "react";
 
 export default UserProfile2 = ({

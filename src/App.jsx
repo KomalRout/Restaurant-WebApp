@@ -10,7 +10,7 @@ import ContactPage from './pages/Contact/index';
 import OrderonlinePage from './pages/Orderonline/index';
 // import CheckoutPage from './pages/Checkout/index';
 // import OrderonlineColumn from './pages/Orderonline/OrderonlineColumn';
-
+import HomePage from './pages/HomePage/index';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <Routes>
-    <Route path='/' element={<Home />} />
+    <Route path='/' element={<HomePage />} />
     <Route path='/aboutus' element={<AboutUsPage />} />
     <Route path='/reservation' element={<ReservationPage />} />
     <Route path='/contact' element={<ContactPage />} />

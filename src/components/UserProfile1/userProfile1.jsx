@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Img from "../Img";
 import Text from "../Text";
 import Heading from "../Heading";
-import { RatingBar } from "../RatingBar";
+import RatingBar  from "../RatingBar";
 
 const UserProfile1 = ({
     userImage = "images/img_kisspng_italian.png",

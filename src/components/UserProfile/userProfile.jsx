@@ -1,4 +1,4 @@
-import { RatingBar } from "./..";
+import RatingBar from "../RatingBar";
 import React from "react";
 import Button from "../Button";
 import Img from "../Img";

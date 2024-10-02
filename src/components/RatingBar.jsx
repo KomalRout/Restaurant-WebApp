@@ -27,4 +27,4 @@ const RatingBar = ({
     );
 };
 
-export { RatingBar };
+export default RatingBar ;
