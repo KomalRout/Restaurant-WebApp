@@ -86,7 +86,7 @@ const OrderonlinePage = () => {
     return (
         <>
             <Helmet>
-                <Title>Order Online - Delicious Pasta, Pizza, and More</Title>
+                <title>Order Online - Delicious Pasta, Pizza, and More</title>
                 <meta
                     name="description"
                     content="Indulge in our mouth-watering menu with a variety of pasta, pizza, and desserts. Order online now for a delectable dining experience at your convenience."

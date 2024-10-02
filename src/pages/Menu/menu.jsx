@@ -1,9 +1,11 @@
 import { Helmet } from "react-helmet";
-import { Img, Button, Heading } from "../../components";
+import Img from "../../components/Img";
+import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import UserProfile from "../../components/UserProfile";
+import UserProfile from "../../components/UserProfile/userProfile";
 import React, { Suspense } from "react";
+import Heading from "../../components/Heading";
 import { TabPanel, TabList, Tab, Tabs } from "react-tabs";
 
 const menuGrid = [
