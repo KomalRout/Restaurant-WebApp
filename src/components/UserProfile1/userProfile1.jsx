@@ -37,9 +37,17 @@ const UserProfile1 = ({
             <Heading size="headings" as="h6" className="mt-[22px] text-[18px] font-semibold text-[#311f09]">
                 {userPrice}
             </Heading>
-            <div className="ml-6 mr-[30px] mt-2.5 flex item-center jutify-center rounded-[16px] bg-[#ffffff] px-2.5 py-3.5 shadow-[3.32px_3.32px_4px_0px_#ff4e4e111]"
+            <div className="rounded-[16px] bg-[#fafaf9] mr-[30px] ml-6 mt-2.5 flex items-center justify-between gap-5 self-stretch"
             >
-                <Img src="images/imp_vector_25.svg" alt="Minus Icon" classNam="h-px" />
+               <div
+                    onClick={(event) => {
+                        event.stopPropagation();
+                        setQuantity((quantity < 1 ? 0 : quantity - 1));
+                    }}
+                    className="flex cursor-pointer flex-col items-center rounded-[16px] bg-[#ffffff] p-2.5 shadow-[3.32px_3.32px_4px_0px_#3fc56d11]"
+                >
+                    <Img src="images/img_vector_25.svg" alt="Plus Icon" className="h-[10px] w-[10px]" />
+                </div>
                 <Text size="textmd" as="p" className="text-[16.62px] font-normal text-[#311f09]">
                     {quantity}
                 </Text>

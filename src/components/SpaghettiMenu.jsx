@@ -45,7 +45,7 @@ const SpaghettiMenu = ({
                         <Img src="images/img_group_7721.svg" alt="Plus Icon" className="h-[10px] w-[10px]" />
                     </div>
                 </div>
-                <Heading size="text2xl" as="p" className="text-[25px] font-medium text-[#311f09]">
+                <Heading size="text-[25px] font-medium md:text-[23px] sm:text-[21px]" as="p" className="text-[25px] font-medium text-[#311f09]">
                     {priceText}
                 </Heading>
             </div>

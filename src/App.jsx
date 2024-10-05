@@ -7,6 +7,7 @@ import ContactPage from './pages/Contact/index';
 import OrderonlinePage from './pages/Orderonline/index';
 import HomePage from './pages/HomePage/index';
 import MenuPage from './pages/Menu/menu';
+import AddToCartPage from './pages/AddToCart/index';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <Route path='/contactus' element={<ContactPage />} />
     <Route path='/orderonline' element={<OrderonlinePage />} />
     <Route path='/menu' element={<MenuPage/>}/>
+    <Route path ='/addToCart' element={<AddToCartPage/>}/>
     </Routes>
     </>
   )

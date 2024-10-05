@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = ({...props}) => {
   return (
-    <header {...props} className={`flex sm:flex-row justify-between items-center gap-5`}>
+    <header {...props} className={`flex items-center justify-between gap-5 sm:flex-col`}>
         <Img src="images\img_header_logo.svg" alt="Header Logo" className="h-[50px] w-[124px] object-contain"/>
         <ul className='!mt-2 flex items-start gap-[30px] self-start sm:flex-col sm:self-auto'>
             <li>
@@ -57,7 +57,7 @@ const Header = ({...props}) => {
             </li>
         </ul>
         <div className='flex gap-6'>
-            <NavLink to='/'>
+            <NavLink to='/addToCart'>
                 <Button color='white_A700' size="h-[50px] px-3" classname='w-[50px] rounded-[24px] px-3'>
                     <Img src="images\img_cart.svg"/>
                 </Button>
